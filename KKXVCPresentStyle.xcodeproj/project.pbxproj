@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F23704FD1F7216CF00D099BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F23704FC1F7216CF00D099BA /* main.m */; };
+		F23705001F7216CF00D099BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F23704FF1F7216CF00D099BA /* AppDelegate.m */; };
+		F23705031F7216CF00D099BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23705021F7216CF00D099BA /* ViewController.m */; };
+		F23705061F7216CF00D099BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23705041F7216CF00D099BA /* Main.storyboard */; };
+		F23705081F7216CF00D099BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23705071F7216CF00D099BA /* Assets.xcassets */; };
+		F237050B1F7216CF00D099BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23705091F7216CF00D099BA /* LaunchScreen.storyboard */; };
+		F23705161F7216CF00D099BA /* KKXVCPresentStyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F23705151F7216CF00D099BA /* KKXVCPresentStyleTests.m */; };
+		F23705211F7216CF00D099BA /* KKXVCPresentStyleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F23705201F7216CF00D099BA /* KKXVCPresentStyleUITests.m */; };
+		F23705301F72178D00D099BA /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F237052F1F72178D00D099BA /* PresentViewController.m */; };
+		F23705341F721C7100D099BA /* KKXBaseAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F23705331F721C7100D099BA /* KKXBaseAnimator.m */; };
+		F23705371F72390000D099BA /* KKXCircleSpeadAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F23705361F72390000D099BA /* KKXCircleSpeadAnimator.m */; };
+		F23705391F72406700D099BA /* PersentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23705381F72406700D099BA /* PersentViewController.xib */; };
+		F237053D1F72679600D099BA /* PresentViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = F237053B1F72679600D099BA /* PresentViewController1.m */; };
+		F237053E1F72679600D099BA /* PresentViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = F237053C1F72679600D099BA /* PresentViewController1.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F23705121F7216CF00D099BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23704F01F7216CF00D099BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23704F71F7216CF00D099BA;
+			remoteInfo = KKXVCPresentStyle;
+		};
+		F237051D1F7216CF00D099BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23704F01F7216CF00D099BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23704F71F7216CF00D099BA;
+			remoteInfo = KKXVCPresentStyle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F23704F81F7216CF00D099BA /* KKXVCPresentStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKXVCPresentStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23704FC1F7216CF00D099BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F23704FE1F7216CF00D099BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F23704FF1F7216CF00D099BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F23705011F7216CF00D099BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F23705021F7216CF00D099BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F23705051F7216CF00D099BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F23705071F7216CF00D099BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F237050A1F7216CF00D099BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F237050C1F7216CF00D099BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23705111F7216CF00D099BA /* KKXVCPresentStyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKXVCPresentStyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23705151F7216CF00D099BA /* KKXVCPresentStyleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKXVCPresentStyleTests.m; sourceTree = "<group>"; };
+		F23705171F7216CF00D099BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F237051C1F7216CF00D099BA /* KKXVCPresentStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKXVCPresentStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23705201F7216CF00D099BA /* KKXVCPresentStyleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKXVCPresentStyleUITests.m; sourceTree = "<group>"; };
+		F23705221F7216CF00D099BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F237052E1F72178D00D099BA /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		F237052F1F72178D00D099BA /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		F23705321F721C7100D099BA /* KKXBaseAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKXBaseAnimator.h; sourceTree = "<group>"; };
+		F23705331F721C7100D099BA /* KKXBaseAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKXBaseAnimator.m; sourceTree = "<group>"; };
+		F23705351F72390000D099BA /* KKXCircleSpeadAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKXCircleSpeadAnimator.h; sourceTree = "<group>"; };
+		F23705361F72390000D099BA /* KKXCircleSpeadAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKXCircleSpeadAnimator.m; sourceTree = "<group>"; };
+		F23705381F72406700D099BA /* PersentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersentViewController.xib; sourceTree = "<group>"; };
+		F237053A1F72679600D099BA /* PresentViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController1.h; sourceTree = "<group>"; };
+		F237053B1F72679600D099BA /* PresentViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController1.m; sourceTree = "<group>"; };
+		F237053C1F72679600D099BA /* PresentViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentViewController1.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F23704F51F7216CF00D099BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F237050E1F7216CF00D099BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23705191F7216CF00D099BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F23704EF1F7216CF00D099BA = {
+			isa = PBXGroup;
+			children = (
+				F23704FA1F7216CF00D099BA /* KKXVCPresentStyle */,
+				F23705141F7216CF00D099BA /* KKXVCPresentStyleTests */,
+				F237051F1F7216CF00D099BA /* KKXVCPresentStyleUITests */,
+				F23704F91F7216CF00D099BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F23704F91F7216CF00D099BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F23704F81F7216CF00D099BA /* KKXVCPresentStyle.app */,
+				F23705111F7216CF00D099BA /* KKXVCPresentStyleTests.xctest */,
+				F237051C1F7216CF00D099BA /* KKXVCPresentStyleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F23704FA1F7216CF00D099BA /* KKXVCPresentStyle */ = {
+			isa = PBXGroup;
+			children = (
+				F23704FE1F7216CF00D099BA /* AppDelegate.h */,
+				F23704FF1F7216CF00D099BA /* AppDelegate.m */,
+				F23705311F721C1300D099BA /* Animators */,
+				F237052E1F72178D00D099BA /* PresentViewController.h */,
+				F237052F1F72178D00D099BA /* PresentViewController.m */,
+				F23705381F72406700D099BA /* PersentViewController.xib */,
+				F237053A1F72679600D099BA /* PresentViewController1.h */,
+				F237053B1F72679600D099BA /* PresentViewController1.m */,
+				F237053C1F72679600D099BA /* PresentViewController1.xib */,
+				F23705011F7216CF00D099BA /* ViewController.h */,
+				F23705021F7216CF00D099BA /* ViewController.m */,
+				F23705041F7216CF00D099BA /* Main.storyboard */,
+				F23705071F7216CF00D099BA /* Assets.xcassets */,
+				F23705091F7216CF00D099BA /* LaunchScreen.storyboard */,
+				F237050C1F7216CF00D099BA /* Info.plist */,
+				F23704FB1F7216CF00D099BA /* Supporting Files */,
+			);
+			path = KKXVCPresentStyle;
+			sourceTree = "<group>";
+		};
+		F23704FB1F7216CF00D099BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F23704FC1F7216CF00D099BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F23705141F7216CF00D099BA /* KKXVCPresentStyleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F23705151F7216CF00D099BA /* KKXVCPresentStyleTests.m */,
+				F23705171F7216CF00D099BA /* Info.plist */,
+			);
+			path = KKXVCPresentStyleTests;
+			sourceTree = "<group>";
+		};
+		F237051F1F7216CF00D099BA /* KKXVCPresentStyleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F23705201F7216CF00D099BA /* KKXVCPresentStyleUITests.m */,
+				F23705221F7216CF00D099BA /* Info.plist */,
+			);
+			path = KKXVCPresentStyleUITests;
+			sourceTree = "<group>";
+		};
+		F23705311F721C1300D099BA /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				F23705321F721C7100D099BA /* KKXBaseAnimator.h */,
+				F23705331F721C7100D099BA /* KKXBaseAnimator.m */,
+				F23705351F72390000D099BA /* KKXCircleSpeadAnimator.h */,
+				F23705361F72390000D099BA /* KKXCircleSpeadAnimator.m */,
+			);
+			name = Animators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F23704F71F7216CF00D099BA /* KKXVCPresentStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23705251F7216CF00D099BA /* Build configuration list for PBXNativeTarget "KKXVCPresentStyle" */;
+			buildPhases = (
+				F23704F41F7216CF00D099BA /* Sources */,
+				F23704F51F7216CF00D099BA /* Frameworks */,
+				F23704F61F7216CF00D099BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKXVCPresentStyle;
+			productName = KKXVCPresentStyle;
+			productReference = F23704F81F7216CF00D099BA /* KKXVCPresentStyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F23705101F7216CF00D099BA /* KKXVCPresentStyleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23705281F7216CF00D099BA /* Build configuration list for PBXNativeTarget "KKXVCPresentStyleTests" */;
+			buildPhases = (
+				F237050D1F7216CF00D099BA /* Sources */,
+				F237050E1F7216CF00D099BA /* Frameworks */,
+				F237050F1F7216CF00D099BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23705131F7216CF00D099BA /* PBXTargetDependency */,
+			);
+			name = KKXVCPresentStyleTests;
+			productName = KKXVCPresentStyleTests;
+			productReference = F23705111F7216CF00D099BA /* KKXVCPresentStyleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F237051B1F7216CF00D099BA /* KKXVCPresentStyleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F237052B1F7216CF00D099BA /* Build configuration list for PBXNativeTarget "KKXVCPresentStyleUITests" */;
+			buildPhases = (
+				F23705181F7216CF00D099BA /* Sources */,
+				F23705191F7216CF00D099BA /* Frameworks */,
+				F237051A1F7216CF00D099BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F237051E1F7216CF00D099BA /* PBXTargetDependency */,
+			);
+			name = KKXVCPresentStyleUITests;
+			productName = KKXVCPresentStyleUITests;
+			productReference = F237051C1F7216CF00D099BA /* KKXVCPresentStyleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F23704F01F7216CF00D099BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MBPWL;
+				TargetAttributes = {
+					F23704F71F7216CF00D099BA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F23705101F7216CF00D099BA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F23704F71F7216CF00D099BA;
+					};
+					F237051B1F7216CF00D099BA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F23704F71F7216CF00D099BA;
+					};
+				};
+			};
+			buildConfigurationList = F23704F31F7216CF00D099BA /* Build configuration list for PBXProject "KKXVCPresentStyle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F23704EF1F7216CF00D099BA;
+			productRefGroup = F23704F91F7216CF00D099BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F23704F71F7216CF00D099BA /* KKXVCPresentStyle */,
+				F23705101F7216CF00D099BA /* KKXVCPresentStyleTests */,
+				F237051B1F7216CF00D099BA /* KKXVCPresentStyleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F23704F61F7216CF00D099BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F237050B1F7216CF00D099BA /* LaunchScreen.storyboard in Resources */,
+				F23705081F7216CF00D099BA /* Assets.xcassets in Resources */,
+				F237053E1F72679600D099BA /* PresentViewController1.xib in Resources */,
+				F23705391F72406700D099BA /* PersentViewController.xib in Resources */,
+				F23705061F7216CF00D099BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F237050F1F7216CF00D099BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F237051A1F7216CF00D099BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F23704F41F7216CF00D099BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F237053D1F72679600D099BA /* PresentViewController1.m in Sources */,
+				F23705031F7216CF00D099BA /* ViewController.m in Sources */,
+				F23705001F7216CF00D099BA /* AppDelegate.m in Sources */,
+				F23705341F721C7100D099BA /* KKXBaseAnimator.m in Sources */,
+				F23705371F72390000D099BA /* KKXCircleSpeadAnimator.m in Sources */,
+				F23705301F72178D00D099BA /* PresentViewController.m in Sources */,
+				F23704FD1F7216CF00D099BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F237050D1F7216CF00D099BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23705161F7216CF00D099BA /* KKXVCPresentStyleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23705181F7216CF00D099BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23705211F7216CF00D099BA /* KKXVCPresentStyleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F23705131F7216CF00D099BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23704F71F7216CF00D099BA /* KKXVCPresentStyle */;
+			targetProxy = F23705121F7216CF00D099BA /* PBXContainerItemProxy */;
+		};
+		F237051E1F7216CF00D099BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23704F71F7216CF00D099BA /* KKXVCPresentStyle */;
+			targetProxy = F237051D1F7216CF00D099BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F23705041F7216CF00D099BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23705051F7216CF00D099BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F23705091F7216CF00D099BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F237050A1F7216CF00D099BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F23705231F7216CF00D099BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F23705241F7216CF00D099BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F23705261F7216CF00D099BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKXVCPresentStyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaxi.KKXVCPresentStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F23705271F7216CF00D099BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKXVCPresentStyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaxi.KKXVCPresentStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F23705291F7216CF00D099BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KKXVCPresentStyleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaxi.KKXVCPresentStyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKXVCPresentStyle.app/KKXVCPresentStyle";
+			};
+			name = Debug;
+		};
+		F237052A1F7216CF00D099BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KKXVCPresentStyleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaxi.KKXVCPresentStyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKXVCPresentStyle.app/KKXVCPresentStyle";
+			};
+			name = Release;
+		};
+		F237052C1F7216CF00D099BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KKXVCPresentStyleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaxi.KKXVCPresentStyleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KKXVCPresentStyle;
+			};
+			name = Debug;
+		};
+		F237052D1F7216CF00D099BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KKXVCPresentStyleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaxi.KKXVCPresentStyleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KKXVCPresentStyle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F23704F31F7216CF00D099BA /* Build configuration list for PBXProject "KKXVCPresentStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23705231F7216CF00D099BA /* Debug */,
+				F23705241F7216CF00D099BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23705251F7216CF00D099BA /* Build configuration list for PBXNativeTarget "KKXVCPresentStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23705261F7216CF00D099BA /* Debug */,
+				F23705271F7216CF00D099BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23705281F7216CF00D099BA /* Build configuration list for PBXNativeTarget "KKXVCPresentStyleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23705291F7216CF00D099BA /* Debug */,
+				F237052A1F7216CF00D099BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F237052B1F7216CF00D099BA /* Build configuration list for PBXNativeTarget "KKXVCPresentStyleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F237052C1F7216CF00D099BA /* Debug */,
+				F237052D1F7216CF00D099BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F23704F01F7216CF00D099BA /* Project object */;
+}
