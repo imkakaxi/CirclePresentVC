@@ -6,6 +6,11 @@ show a vc by circle spread type ,圆形扩展的方式显示VC
 效果图(动态图片较大若显示不正常可以点击图片查看):
 
 效果图
+
 <img src="https://github.com/imkakaxi/CirclePresentVC/tree/master/image/Untitled.gif" width="320"><br/>
 
 
+测试
+
+
+<img src="https://github.com/imkakaxi/CirclePresentVC/tree/master/image/test.jpg" width="320"><br/>
